@@ -4,6 +4,7 @@ import Feature from './Features/Feature'
 import PopularBurger from './PopularBurger/PopularBurger'
 import Delivery from './Delivery/Delivery'
 import Team from './Team/Team'
+import Reservation from './Reservation/Reservation'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <PopularBurger/>
       <Delivery/>
       <Team/>
+      <Reservation/>
     </div>
   )
 }
